@@ -10,10 +10,10 @@ function word_counter(){
     let temp = "";
     for (let index = 0; index < inp.length; index++) {
         temp += inp[index];
-        if(inp[index+1] == ','){
+        if(inp[index+1] == ',' || inp[index+1] == '.' || inp[index+1] == '?' || inp[index+1] == '!'){
             index += 1;
         }
-        if(inp[index+1] == ' ' || inp[index+1] == '\n'){
+        if(inp[index+1] == ' ' || inp[index+1] == '\n' ){
             let temp2 = check(dict,temp);
             if(temp2 != -1){
                 dict_count[temp2] += 1;
