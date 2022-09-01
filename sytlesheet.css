@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+.ti {
+    text-align: center;
+    border: 0px;
+    border-bottom: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+/* CSS */
+.but {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button:focus {
+  text-decoration: none;
+}
+
+.but:hover {
+  text-decoration: none;
+}
+
+.but:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.scroll_box {
+    width: 80%;
+    padding-bottom: 200px;
+    overflow:scroll
+}
+
+.row {
+    border: 2px solid rgb(224, 213, 213);
+    padding: 4px 4px;
+    outline: thin solid;
+}
+
+.tab{
+    margin-right: auto;
+    margin-left: auto;
+    border: rgb(255, 255, 255) solid 2px;
+}
+.tab2{
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid rgb(224, 213, 213);
+
+}
+
+textarea{
+    resize: none;
+    height: 150px;
+    width: 80%;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
